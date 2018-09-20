@@ -1,0 +1,8 @@
+﻿
+@model PI.Cms.Core.Content.Interfaces.IViewModel
+@using PI.Cms.Core.Content;
+
+<p>First render the Item1.Copy nested property</p>
+@Html.Raw(RenderManager.Render(Model, "Item1.Copy"))
+<p>No render the normal Copy property
+@Html.Raw(RenderManager.Render(Model, "Copy"))

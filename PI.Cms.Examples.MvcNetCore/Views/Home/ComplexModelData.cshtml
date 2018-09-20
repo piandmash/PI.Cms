@@ -1,0 +1,8 @@
+﻿@model PI.Cms.Core.Content.Models.StandardViewModel
+
+@{
+    ViewData["Title"] = "Complex Model Example";
+}
+<h2>@ViewData["Title"]</h2>
+
+@await Component.InvokeAsync("Content", Model)

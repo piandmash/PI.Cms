@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net451;netcoreapp2.1;netcoreapp2.0</TargetFrameworks>
+    <Company>Pi &amp; Mash Limited</Company>
+    <Copyright>Copyright ©  2018 Pi &amp; Mash Limited</Copyright>
+    <PackageLicenseUrl>https://github.com/piandmash/PI.Cms/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/piandmash/PI.Cms</PackageProjectUrl>
+    <PackageIconUrl>https://www.piandmash.com/pi_logo.png</PackageIconUrl>
+    <Description>The Core models, interfaces and managers for PI.Cms
+PI.Cms is a simple but powerful Content Management System for .Net</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageTags>cms, content management, resources, resource management</PackageTags>
+    <Version>2.0.0</Version>
+    <RepositoryUrl>https://github.com/piandmash/PI.Cms.Core</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageId>PI.Cms.Core</PackageId>
+    <Authors>Pete Cleary</Authors>
+    <Product>PI.Cms.Core</Product>
+    <AssemblyName>PI.Cms.Core</AssemblyName>
+    <RootNamespace>PI.Cms.Core</RootNamespace>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+
+</Project>

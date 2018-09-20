@@ -1,0 +1,13 @@
+﻿
+@model PI.Cms.Core.Content.Interfaces.IViewModel
+
+<div class="@Model.Model["CssClass"]">
+    
+    <h1>@Html.Raw(Model.Model["Heading"]["Text"])</h1>
+
+    @foreach(var child in Model.Children){
+        
+        @await Component.InvokeAsync("Content", child);
+    }
+</div>
+
